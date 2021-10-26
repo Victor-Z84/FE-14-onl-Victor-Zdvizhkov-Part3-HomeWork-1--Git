@@ -69,7 +69,7 @@
 
     1. Добавляем изменения в индекс: `git add css/styles.css`
 
-    2. Делаем коммит изменений в `master`: git commit -m ‘added changes in styles.css’
+    2. Делаем коммит изменений в `master`: `git commit -m ‘added changes in styles.css’`
 
     3. Переход на ветку `version-1`: `git checkout version-1` 
 
