@@ -70,9 +70,22 @@
     1. Добавляем изменения в индекс: `git add css/styles.css`
 
     2. Делаем коммит изменений в `master`: `git commit -m ‘added changes in styles.css’`
+    
+    3. Добавляем изменения на удаленный репозиторий - `git push`
+    
+    4. Просмотр всех коммитов ветки `maser`: `git log`, копируем номер коммита с изменениями стиля в буфер 
 
-    3. Переход на ветку `version-1`: `git checkout version-1` 
+    5. Переход на ветку `version-1`: `git checkout version-1` 
 
-    4. Применяем последний коммит с изменениями стилей в ветке `master` к нашей текущей ветке `version-1`:
+    6. Применяем последний коммит с изменениями стилей в ветке `master` к нашей текущей ветке `version-1`:
+       `git cherry-pick [номер коммита]`
+       
+    7. Подтверждаем действия: `git cherry-pick --continue`
+    
+    8. Добавляем ветку `version-1` на удаленный репозиторий: `git push --set-upstream origin version-1`
+
+
+
+
 
 
